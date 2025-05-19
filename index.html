@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MANGO PULSE</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Noto Sans Bengali', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fff;
+    }
+    .header {
+      background: rgb(0, 42, 255);
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+    }
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      background: #fff;
+      border-bottom: 1px solid #ccc;
+    }
+    .navbar img {
+      height: 40px;
+    }
+    .search-box {
+      display: flex;
+      margin: 10px auto;
+      width: 90%;
+    }
+    .search-box input {
+      flex: 1;
+      padding: 10px;
+      border: 2px solid rgb(128, 0, 68);
+      border-right: none;
+      border-radius: 5px 0 0 5px;
+    }
+    .search-box button {
+      background: red;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 0 5px 5px 0;
+      cursor: pointer;
+    }
+    .menu-section {
+      background: #c00;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+    .hero {
+      text-align: center;
+      background: url('https://royalfruitz.com/assets/images/banner1.jpg') no-repeat center center/cover;
+      color: green;
+      padding: 60px 20px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .product-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      padding: 10px;
+    }
+    .product-gallery img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <img src="https://royalfruitz.com/assets/images/logo.png" alt="Royal Fruitz Logo">
+    <div>
+      <img src="https://img.icons8.com/ios-filled/50/000000/shopping-cart.png" width="24" alt="Cart">
+    </div>
+  </div>
+
+  <div class="search-box">
+    <input type="text" placeholder="Search all types of fruits here">
+    <button>Search</button>
+  </div>
+
+  <div class="menu-section">
+    <div>MANGO</div>
+    <div>MENU</div>
+  </div>
+
+  <div class="hero">
+    বাছাইকৃত প্রিমিয়াম মানের ফল
+  </div>
+
+  <div class="product-gallery">
+    <img src="https://royalfruitz.com/assets/images/mango1.jpg" alt="Mango 1">
+    <img src="https://royalfruitz.com/assets/images/mango2.jpg" alt="Mango 2">
+    <img src="https://royalfruitz.com/assets/images/mango3.jpg" alt="Mango 3">
+  </div>
+
+</body>
+</html>
